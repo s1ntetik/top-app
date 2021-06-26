@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Htag, Button, Ptag, Tag, Rating } from '../components';
+import { Button, Htag, Ptag, Rating, Tag } from '../components';
 import { withLayout } from '../layout/Layout';
 
 function Home(): JSX.Element {
