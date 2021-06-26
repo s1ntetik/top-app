@@ -6,10 +6,10 @@
 	],
 	"rules": {
 		"semi": "off",
-		// "no-undef": "off",
-		// "@typescript-eslint/semi": [
-		// 	"warn"
-		// ],
+		"no-undef": "off",
+		"@typescript-eslint/semi": [
+			"warn"
+		],
 		"@typescript-eslint/no-empty-interface": [
 			"error",
 			{

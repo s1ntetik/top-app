@@ -4,7 +4,7 @@ import { withLayout } from '../layout/Layout';
 
 function Home(): JSX.Element {
 
-  const [rating, setRating] = useState<number>(4)
+  const [rating, setRating] = useState<number>(4);
 
   return (
     <>
@@ -22,7 +22,7 @@ function Home(): JSX.Element {
       <Rating rating={4}></Rating>
       <Rating isEditable rating={rating} setRating={setRating}></Rating>
     </>
-  )
+  );
 }
 
-export default withLayout(Home)
+export default withLayout(Home);
